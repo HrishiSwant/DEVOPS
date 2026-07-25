@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning repository'
-                git ''
+                git 'https://github.com/HrishiSwant/DEVOPS.git'
             }
         }
 
